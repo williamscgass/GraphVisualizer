@@ -1,0 +1,33 @@
+body {
+  overflow-y: hidden;
+  /* Hide vertical scrollbar */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  margin: 0;
+}
+
+#node-display {
+  display: none;
+  justify-content: space-between;
+  position: fixed;
+  overflow: auto;
+  border: 1px solid black;
+  height: 20%;
+  width: 20%;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+#node-display-inner {
+}
+
+#node-close {
+}
+
+.node-sl {
+  font-weight: bold;
+}
